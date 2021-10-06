@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap stylins -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <!-- THE NAV HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="#">DigiFiles</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"-->
+          <li class="nav-item active">
+            <a class="nav-link" href="home-page.html">HOME PAGE <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="employee-info.html">EMPLOYEE INFORMATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./file-upload.html">UPLOAD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EDIT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="welcome-page.html">TERMS OF USAGE</a>
+          </li>
+      </div>
+    </nav>
+
+
+    <!-- THE SYSTEM ADMIN LOGIN FORM -->
+    <div class="container register">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+          <h3>Welcome</h3>
+          <p>You are one step away from gaining the control power of the system, kindly fill in you details to access the system</p>
+          <!-- <input type="submit" name="" value="Login" /><br /> -->
+        </div>
+        <div class="col-md-9 register-right">
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <h3 class="register-heading">Login to the system</h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First Name *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last Name *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Password *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Confirm Password *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <div class="maxl">
+                      <label class="radio inline">
+                        <input
+                          type="radio"
+                          name="gender"
+                          value="male"
+                          checked
+                        />
+                        <span> Male </span>
+                      </label>
+                      <label class="radio inline">
+                        <input type="radio" name="gender" value="female" />
+                        <span>Female </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      minlength="10"
+                      maxlength="10"
+                      name="txtEmpPhone"
+                      class="form-control"
+                      placeholder="Your Phone *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option class="hidden" selected disabled>
+                        Please select your Sequrity Question
+                      </option>
+                      <option>What is your Birthdate?</option>
+                      <option>What is Your old Phone Number</option>
+                      <option>What is your Pet Name?</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Your Answer *"
+                      value=""
+                    />
+                  </div>
+                  <a href="./home-page.html" >
+                    <input type="submit" class="btnRegister" value="Login" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer id="p-foot"><p>All rigt reserved &copy; 2021 jane's work</p></footer>
+  </body>
+</html>
